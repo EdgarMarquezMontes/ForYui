@@ -1,4 +1,5 @@
 import { lazy, Suspense, useState, type CSSProperties } from "react";
+import logo from "./assets/Logo.png";
 import FrogGame from "./components/FrogGame";
 import Icon from "./components/Icon";
 import LoveLetter from "./components/LoveLetter";
@@ -32,7 +33,7 @@ export default function App() {
       <div className="grain" />
       <header className="topbar">
         <a href="#inicio" className="brand">
-          <img className="brand-logo" src={`${import.meta.env.BASE_URL}Logo.png`} alt="" />
+          <img className="brand-logo" src={logo} alt="" />
           <span>ForYui</span>
         </a>
       </header>
