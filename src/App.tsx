@@ -32,7 +32,7 @@ export default function App() {
       <div className="grain" />
       <header className="topbar">
         <a href="#inicio" className="brand">
-          <img className="brand-logo" src="/Logo.png" alt="" />
+          <img className="brand-logo" src={`${import.meta.env.BASE_URL}Logo.png`} alt="" />
           <span>ForYui</span>
         </a>
       </header>
